@@ -53,7 +53,7 @@ header {height: 90px;
 
 header h1, header p {text-indent: -999px; }
 
-body.home header { background: white url(images/websitebanner.png) no-repeat; }
+body.index header { background: white url(images/websitebanner.png) no-repeat; }
 
 body.artists header { background: white url(images/websitebanner.png) no-repeat; }
 
