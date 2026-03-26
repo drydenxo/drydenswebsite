@@ -1,0 +1,122 @@
+/* Dryden's CSS print file (in class) */
+
+body {font-family: calibri, sans-serif;
+	font-size: 15pt;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	}
+
+h1, h2, h3 {font-family: georgia, serif;
+		font-weight: normal; }
+
+h1 {font-size: 160%; }
+
+h2 {font-size: 130%; }
+
+h3 {font-size: 120%; }
+
+p, h1, h2, h3, ol, ul {margin-top: 0;
+			margin-bottom: 1px;}
+
+ol { padding-left: 0;
+	margin-left: 30px; }
+
+img { padding: 4px;
+	border: 1px solid black;
+	background-color: white; }
+
+a {color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #FFFFFF;
+	padding-bottom: 1px; }
+
+a:hover, a:focus, a:active {background-color: #FFFFFF;
+				color: black;
+				border-bottom-color: #000000; }
+
+div#wrapper {width: 728px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: #FFFFFF;
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-attachment: scroll;
+		border: 2px solid black; }
+
+header {height: 90px; 
+	margin-bottom: 20px; }
+
+header h1, header p {text-indent: -999px; }
+
+body.home header { background: white url(images/websitebanner.png) no-repeat; }
+
+body.artists header { background: white url(images/websitebanner.png) no-repeat; }
+
+body.about header { background: white url(images/websitebanner.png) no-repeat; }
+
+body.contact header { background: white url(images/websitebanner.png) no-repeat; }
+
+body.services header { background: white url(images/websitebanner.png) no-repeat; }
+
+article { width: 500px;
+	padding-left: 10px; }
+
+nav { display:none;
+      width: 200px;
+      padding-right: 5px }
+
+footer {padding: 10px;
+	font-size: 75%;
+	height: 1%;
+	background-color: #FF6961;
+	color: #FFFFFF;
+	border-top: 2px solid #464646; }
+
+footer p {margin-bottom: 0;}
+
+footer a:link {color: white; }
+
+footer a:hover, footer a:focus, footer a:active {background-color: transparent;
+						border: none; }
+
+nav ul {list-style-type: none;
+	border: 1px solid #FFFFFF;
+	margin-left: 0;
+	padding-left: 5px;
+	border-bottom: none;
+	display: block;
+	line-height: 2;
+	height: 1%; }
+
+nav a {display: block;
+	background: #FF6961;
+	padding-left: 1px;
+	line-height: 2;
+	border-bottom-color: #000000;
+	height: 1%; }
+
+nav a:hover {background-color: white; }
+
+nav li {display: inline; }
+
+table {border: none; }
+
+caption { display: none; }
+
+thead {color: white;
+	background-color: #CCCCCC;
+	text-align: left; }
+tbody{ font-family: georgia, serif;
+	font-size: 110%; }
+
+
+
+
+
+
+
+
